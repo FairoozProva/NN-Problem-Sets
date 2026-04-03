@@ -13,7 +13,7 @@ The project follows a standard Data Science Lifecycle:
 
 
 ## 2. Methodology
-# Data Preprocessing
+### Data Preprocessing
 To ensure the Logistic Regression model performs optimally, the following steps were taken:
 
 * Target Encoding: The target variable y was mapped from string labels (yes, no) to integers (1, 0).
@@ -24,7 +24,7 @@ To ensure the Logistic Regression model performs optimally, the following steps 
 
 * Handling Class Imbalance: The dataset is naturally skewed toward "No" responses. We utilized the class_weight='balanced' parameter to ensure the model does not ignore the minority class (actual subscribers).
 
-# Model Selection
+### Model Selection
 Algorithm: Logistic Regression.
 
 * Optimization: We increased max_iter to 1000 to ensure the solver reaches the optimal weights for the 17+ attributes.
@@ -35,7 +35,7 @@ Algorithm: Logistic Regression.
 ## 3. Findings
 The model’s performance is evaluated using more than just accuracy, as accuracy can be misleading in imbalanced datasets.
 
-# Metrics Explained
+### Metrics Explained
 
 * Confusion Matrix: A table used to describe the performance of the classification model (True Positives, True Negatives, False Positives, False Negatives).
 
