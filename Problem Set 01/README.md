@@ -16,13 +16,13 @@ The solution is implemented using TensorFlow/Keras and follows these technical s
 
 * Model Architecture: I designed a Sequential Convolutional Neural Network (CNN) consisting of:
 
-1.Three Convolutional Layers (Conv2D) with increasing filters (32, 64, 128) to extract hierarchical features.
+  1.Three Convolutional Layers (Conv2D) with increasing filters (32, 64, 128) to extract hierarchical features.
 
-2.MaxPooling layers to reduce spatial dimensions and computational load.
+  2.MaxPooling layers to reduce spatial dimensions and computational load.
 
-3.A Flatten layer followed by a Dense hidden layer (128 units) with ReLU activation.
+  3.A Flatten layer followed by a Dense hidden layer (128 units) with ReLU activation.
 
-4.A Dropout (0.5) layer to further reduce overfitting by randomly deactivating neurons during training.
+  4.A Dropout (0.5) layer to further reduce overfitting by randomly deactivating neurons during training.
 
 * Optimization: The model was compiled using the Adam optimizer, which adaptively adjusts the learning rate.
 
